@@ -1,7 +1,7 @@
 <Page>
-    <ActionBar title="Featured" class="action-bar"></ActionBar>
+    <ActionBar title="Main Page" class="action-bar"></ActionBar>
 
     <StackLayout>
-        <Button text="navigate('item-page')" tap="onTap"/>
+        <Button text="navigate('home-page')" tap="onTap"/>
     </StackLayout>
 </Page>
