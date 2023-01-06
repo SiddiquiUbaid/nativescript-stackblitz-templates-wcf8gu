@@ -1,8 +1,0 @@
-<Page loaded="onPageLoaded">
-    <ActionBar title="Home" class="action-bar"></ActionBar>
-
-    <StackLayout>
-        <Label text="Home page"/>
-        <Button text="goBack()" tap="onTap"/>
-    </StackLayout>
-</Page>
