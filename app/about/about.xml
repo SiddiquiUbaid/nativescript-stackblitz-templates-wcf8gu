@@ -1,0 +1,8 @@
+<Page>
+  <ActionBar title="About" class="action-bar"/>
+  <StackLayout>
+      <Label text="Small company that wants to bring you the best in retro gaming!" style.fontSize="20" textWrap="true"/>
+      <Label text="Come visit us in Louisville, KY"/>
+  </StackLayout>
+  
+</Page>
