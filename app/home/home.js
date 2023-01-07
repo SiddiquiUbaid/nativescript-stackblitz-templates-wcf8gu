@@ -13,6 +13,13 @@ export function onTap(args) {
 
 }
 
+export function onAbout(args){
+  const button = args.object
+  const page = button.page
+  page.frame.navigate('about/about')
+  console.log('going to about page' + page)
+}
+
 
 //exports.onTap = onTap;
 

@@ -4,5 +4,7 @@
     <StackLayout>
         <Label text="Home page"/>
         <Button text="goBack()" tap="onTap"/>
+        <Button text="About" tap="onAbout"/>
+       
     </StackLayout>
 </Page>
