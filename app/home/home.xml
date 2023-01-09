@@ -8,5 +8,5 @@
         <Button text="Contact us" tap="onContact"/>
         <Button text="Products" tap="onProduct"/>
        
-    </StackLayout>
+    </StackLayout> 
 </Page>

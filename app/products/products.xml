@@ -1,12 +1,12 @@
 <Page>
-  <GridLayout rows="*, *, * " coloumns="*, * " width="300", height="450">
+  <GridLayout rows="*, *, * " columns="*, * " width="300" height="450">
 
-    <Label row="0" col="0" text="”Couch Commander" textWrap="true" style="background-color: #CCCCCC" />
-    <Label row="0" col="1" text="”Mummy Madness" textWrap="true" style="background-color: #EEEEEE" />
-    <Label row="1" col="0" text="Pyro Robots" textWrap="true" style="background-color: #EEEEEE" />
-    <Label row="1" col="1" text="Rescue Pups" textWrap="true" style="background-color: #CCCCCC" />
-    <Label row="2" col="0" text="Super Marshmallow Man" textWrap="true" style="background-color: #CCCCCC" />
-    <Label row="2" col="1" text="Vampire Valkyrie" textWrap="true" style="background-color: #EEEEEE" />
+    <Label row="0" col="0" text="Couch Commander" textWrap="true" style="background-color: #568203" />
+    <Label row="0" col="1" text="”Mummy Madness" textWrap="true" style="background-color: #93C572" />
+    <Label row="1" col="0" text="Pyro Robots" textWrap="true" style="background-color: #93C572" />
+    <Label row="1" col="1" text="Rescue Pups" textWrap="true" style="background-color: #568203" />
+    <Label row="2" col="0" text="Super Marshmallow Man" textWrap="true" style="background-color: #568203" />
+    <Label row="2" col="1" text="Vampire Valkyrie" textWrap="true" style="background-color: #93C572" />
 
   </GridLayout>
 </Page>
