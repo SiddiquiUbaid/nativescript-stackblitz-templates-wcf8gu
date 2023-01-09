@@ -3,10 +3,11 @@
   <GridLayout rows="*, *, * " columns="*, * " width="300" height="450">
 
     <!-- <Label row="0" col="0" text="Couch Commander" style.fontSize="20" textWrap="true" style="background-color: #568203" /> -->
-    <StackLayout row="0" col="0">
-      <Label  text="Couch Commander" style.fontSize="20" textWrap="true" style="background-color: #568203" />
-       <Label  text="Couch Commander" style.fontSize="20" textWrap="true" style="background-color: #568203" />
+    <StackLayout row="0" col="0"  style.fontSize="20" style="background-color: #568203">
+      <Label  text="Couch Commander" textWrap="true"  />
+      <Label  text="Couch Commander" textWrap="true"  />
     </StackLayout>
+    
     <Label row="0" col="1" text="”Mummy Madness" style.fontSize="20" textWrap="true" style="background-color: #93C572" />
     <Label row="1" col="0" text="Pyro Robots" style.fontSize="20" textWrap="true" style="background-color: #93C572" />
     <Label row="1" col="1" text="Rescue Pups" style.fontSize="20" textWrap="true" style="background-color: #568203" />
