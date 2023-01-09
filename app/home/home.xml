@@ -6,7 +6,7 @@
         <Button text="Main" tap="onTap"/>
         <Button text="About" tap="onAbout"/>
         <Button text="Contact us" tap="onContact"/>
-        <Button text="Products" tap="onProduct">
+        <Button text="Products" tap="onProduct"/>
        
     </StackLayout>
 </Page>
