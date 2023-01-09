@@ -1,4 +1,5 @@
 <Page>
+  <ActionBar title="Products" />
   <GridLayout rows="*, *, * " columns="*, * " width="300" height="450">
 
     <Label row="0" col="0" text="Couch Commander" style.fontSize="20" textWrap="true" style="background-color: #568203" />
