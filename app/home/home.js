@@ -4,9 +4,17 @@ export function onPageLoaded(args) {
 }
 
 export function onTap(args) {
-  const button = args.object;
-  const page = button.page;
-  page.frame.navigate('main-page')
+  const obj = args.object;
+  const page = obj.page;
+  
+  let mainPage = {
+    moduleName: 'main-page',
+    transition: {
+      name: 'slideBottom'  //explode //fade //flipRight //flipLeft //slideLeft //slideRight //slideTop //slideBottom
+    } 
+  }
+
+  page.frame.navigate(mainPage)
 
   console.log('going  back to main page' + page)
 
@@ -14,9 +22,16 @@ export function onTap(args) {
 }
 
 export function onAbout(args){
-  const button = args.object
-  const page = button.page
-  page.frame.navigate('about/about')
+  const obj = args.object
+  const page = obj.page
+  let aboutPage = {
+    moduleName: 'about/about',
+    transition: {
+      name: 'fade'
+    }
+  }
+
+  page.frame.navigate(aboutPage)
   console.log('going to about page' + page)
 }
 
