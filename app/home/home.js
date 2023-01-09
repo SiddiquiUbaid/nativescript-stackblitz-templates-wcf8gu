@@ -48,9 +48,21 @@ export function onContact(args){
 
   page.frame.navigate(contactPage)
   
+}
+
+export function onProduct(args){
+  const obj = args.object
+  const page = obj.page
+
+  let productPage ={
+    moduleName: 'products/products',
+    transition: {
+      name: 'flipRight'
+    }
+  }
 
 
-
+  page.frame.navigate(productPage)
 }
 
 
