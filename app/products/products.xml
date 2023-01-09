@@ -4,8 +4,8 @@
 
     <!-- <Label row="0" col="0" text="Couch Commander" style.fontSize="20" textWrap="true" style="background-color: #568203" /> -->
     <StackLayout row="0" col="0"  style.fontSize="20" style="background-color: #568203">
-      <Label  text="Couch Commander" textWrap="true"  />
-      <Label  text="Couch Commander" textWrap="true"  />
+      <Label  text="Couch Commander1" textWrap="true"  />
+      <Label  text="Couch Commander2" textWrap="true"  />
     </StackLayout>
 
     <Label row="0" col="1" text="”Mummy Madness" style.fontSize="20" textWrap="true" style="background-color: #93C572" />
