@@ -35,6 +35,24 @@ export function onAbout(args){
   console.log('going to about page' + page)
 }
 
+export function onContact(args){
+  const obj = args.object
+  const page = obj.page
+
+  let contactPage = {
+    moduleName: 'contact-us/contact-us',
+    transition: {
+      name: 'slideBottom'
+    }
+  }
+
+  page.frame.navigate(contactPage)
+  
+
+
+
+}
+
 
 //exports.onTap = onTap;
 
